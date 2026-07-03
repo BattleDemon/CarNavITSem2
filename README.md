@@ -29,3 +29,4 @@ Ability to save a location under a keyword (for quick searching or has first opt
 GPS Idea
 
 https://core-electronics.com.au/adafruit-ultimate-gps-hat-for-raspberry-pi-a-or-b-mini-kit.html
+https://core-electronics.com.au/raspberry-pi-gps-module-seeed-studio.html 
