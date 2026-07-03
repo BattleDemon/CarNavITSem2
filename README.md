@@ -25,3 +25,7 @@ https://piaustralia.com.au/products/5-inch-lcd-hdmi-touch-screen-display-for-ras
 https://piaustralia.com.au/products/hd-7-inch-lcd-hdmi-touch-screen-display-tft-for-ra
 
 Ability to save a location under a keyword (for quick searching or has first options)
+
+GPS Idea
+
+https://core-electronics.com.au/adafruit-ultimate-gps-hat-for-raspberry-pi-a-or-b-mini-kit.html
