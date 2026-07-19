@@ -1,3 +1,8 @@
 {
-  "cssTheme": "Obsidianite"
+  "cssTheme": "Catppuccin",
+  "theme": "obsidian",
+  "interfaceFontFamily": "Mononoki Nerd Font Mono",
+  "textFontFamily": "Mononoki Nerd Font Mono",
+  "monospaceFontFamily": "CaskaydiaCove Nerd Font Mono",
+  "baseFontSize": 14
 }
