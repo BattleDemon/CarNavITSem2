@@ -186,6 +186,9 @@
   },
   "active": "c043899680c1eb8d",
   "lastOpenFiles": [
+    "Code/gps/gps.py~",
+    "Code/ui/ui.py",
+    "Code/gps/gps.py",
     "documentation/documentation.md",
     "Preplanning/preplanning.md",
     "documentation/temp.txt",
@@ -196,7 +199,6 @@
     "Code/gps/temp.txt",
     "Code/ui",
     "Code/gps",
-    "Code/main.py",
     "Raspberry-Pi-5-Pinout_Highlighted.jpg",
     "Raspberry-Pi-5-Pinout--1210x642.jpg",
     "README.md"
