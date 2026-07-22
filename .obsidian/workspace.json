@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Preplanning/Preplanning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Preplanning"
             }
           }
         ]
@@ -184,23 +184,22 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "c043899680c1eb8d",
+  "active": "9dcb6830e1f48a06",
   "lastOpenFiles": [
+    "Documentation/documentation.md",
+    "README.md",
     "Code/gps/gps.py~",
     "Code/ui/ui.py",
     "Code/gps/gps.py",
-    "documentation/documentation.md",
-    "Preplanning/preplanning.md",
-    "documentation/temp.txt",
-    "documentation",
+    "Preplanning/Preplanning.md",
+    "Documentation/temp.txt",
+    "Documentation",
     "Code/resources/temp.txt",
     "Code/resources",
     "Code/ui/temp.txt",
     "Code/gps/temp.txt",
     "Code/ui",
-    "Code/gps",
     "Raspberry-Pi-5-Pinout_Highlighted.jpg",
-    "Raspberry-Pi-5-Pinout--1210x642.jpg",
-    "README.md"
+    "Raspberry-Pi-5-Pinout--1210x642.jpg"
   ]
 }
