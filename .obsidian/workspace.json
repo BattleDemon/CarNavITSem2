@@ -180,9 +180,19 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "9dcb6830e1f48a06",
-  "lastOpenFiles": []
+  "active": "c043899680c1eb8d",
+  "lastOpenFiles": [
+    "Code/ui/temp.txt",
+    "Code/gps/temp.txt",
+    "Code/ui",
+    "Code/gps",
+    "Code/main.py",
+    "Raspberry-Pi-5-Pinout_Highlighted.jpg",
+    "Raspberry-Pi-5-Pinout--1210x642.jpg",
+    "README.md"
+  ]
 }
