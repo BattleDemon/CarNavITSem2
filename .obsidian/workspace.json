@@ -11,12 +11,14 @@
             "id": "9dcb6830e1f48a06",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Preplanning/Raspberry-Pi-5-Pinout--1210x642.jpg"
+                "file": "Preplanning/Preplanning.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Raspberry-Pi-5-Pinout--1210x642"
+              "icon": "lucide-file",
+              "title": "Preplanning"
             }
           }
         ]
@@ -187,13 +189,13 @@
   },
   "active": "9dcb6830e1f48a06",
   "lastOpenFiles": [
-    "NEO-6_DataSheet_(GPS.G6-HW-09005).pdf",
-    "gpiozero-readthedocs-io-en-stable.pdf",
-    "Preplanning/Preplanning.md",
     "Preplanning/Raspberry-Pi-5-Pinout--1210x642.jpg",
     "Preplanning/Raspberry-Pi-5-Pinout_Highlighted.jpg",
-    "Documentation/documentation.md",
+    "Preplanning/Preplanning.md",
     "README.md",
+    "NEO-6_DataSheet_(GPS.G6-HW-09005).pdf",
+    "gpiozero-readthedocs-io-en-stable.pdf",
+    "Documentation/documentation.md",
     "Code/gps/gps.py~",
     "Code/ui/ui.py",
     "Code/gps/gps.py",
