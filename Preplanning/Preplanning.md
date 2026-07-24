@@ -24,6 +24,8 @@ The physical system will be made up of:
 	LCD 7" Touch screen display
 ## Pi OS Configuration
 
+Change the config.txt which acts as the bios of the raspberry pi, to allow the gps to connect through the gpio pins. Also eventually strip down the Raspberry Pi OS install to just the required packages. Make it automatically launch my app upon booting. 
+
 ## GPS Interpretation
 
 Handle incoming GPS NMEA data, either decode into Longitude and Latitude or keep as is (depends on how the OpenStreetData handles gps location)
