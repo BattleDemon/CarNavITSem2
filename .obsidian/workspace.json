@@ -186,20 +186,20 @@
   },
   "active": "9dcb6830e1f48a06",
   "lastOpenFiles": [
+    "Preplanning/Raspberry-Pi-5-Pinout_Highlighted.jpg",
+    "NEO-6_DataSheet_(GPS.G6-HW-09005).pdf",
+    "Preplanning/Preplanning.md",
+    "Preplanning/Raspberry-Pi-5-Pinout--1210x642.jpg",
     "Documentation/documentation.md",
     "README.md",
     "Code/gps/gps.py~",
     "Code/ui/ui.py",
     "Code/gps/gps.py",
-    "Preplanning/Preplanning.md",
     "Documentation/temp.txt",
     "Documentation",
     "Code/resources/temp.txt",
     "Code/resources",
     "Code/ui/temp.txt",
-    "Code/gps/temp.txt",
-    "Code/ui",
-    "Raspberry-Pi-5-Pinout_Highlighted.jpg",
-    "Raspberry-Pi-5-Pinout--1210x642.jpg"
+    "Code/gps/temp.txt"
   ]
 }
