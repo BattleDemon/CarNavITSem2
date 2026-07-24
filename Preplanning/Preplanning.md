@@ -16,13 +16,28 @@ The physical system will be made up of:
 
 ## Route Algorithm
 
+
+
 ## Beyond Minimum Viable Product
 
-### 3D Printed Chassis that is designed specifically to fit in my car.
+### Route Algorithms 
+
+Either custom make my own route calculating algorithm or implement a range of known route algorithms, with some maybe taking into account average traffic at peak times ect, while still staying offline (so not real time traffic).
+
+### More Advanced UI and system
+Be able to have multi destination routes, or saved locations.
+
+### Voice Instructions
+Pre-recorded "Turn Left", "Turn Right" notifications, would require adding a speaker or integration into the cars speaker.
+
+### 3D Printed Chassis 
+3D model and print a chassis specifically designed to mount this system in my car. 
 
 # Research
 
 ## Commercial Systems and Other Alternatives
+
+## Route Calculation Algorithms
 
 ## Physical Components
 
