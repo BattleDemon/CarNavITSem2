@@ -9,6 +9,8 @@ To design and produce an integrated system for use as a GPS navigator, similar t
 
 ## Route Calculation Algorithms
 
+Dijkstra's Algorithm, A*, and Bidirectional search 
+
 ## Physical Components
 
 ## Raspberry Pi

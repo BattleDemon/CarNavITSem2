@@ -189,12 +189,13 @@
   },
   "active": "9dcb6830e1f48a06",
   "lastOpenFiles": [
+    "Preplanning/Raspberry-Pi-5-Pinout--1210x642.jpg",
+    "Preplanning/Preplanning.md",
+    "australia-260722.osm.pbf",
     "AU-streets.tsv.gz",
     "AU-houses.tsv.gz",
     "AU-addresses.tsv.gz",
-    "Preplanning/Raspberry-Pi-5-Pinout--1210x642.jpg",
     "Preplanning/Raspberry-Pi-5-Pinout_Highlighted.jpg",
-    "Preplanning/Preplanning.md",
     "README.md",
     "NEO-6_DataSheet_(GPS.G6-HW-09005).pdf",
     "gpiozero-readthedocs-io-en-stable.pdf",
@@ -202,8 +203,6 @@
     "Code/gps/gps.py~",
     "Code/ui/ui.py",
     "Code/gps/gps.py",
-    "Documentation/temp.txt",
-    "Documentation",
-    "Code/resources/temp.txt"
+    "Documentation/temp.txt"
   ]
 }
