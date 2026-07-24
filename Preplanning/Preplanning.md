@@ -10,20 +10,14 @@ To design and produce an integrated system for use as a GPS navigator, similar t
 ## Route Calculation Algorithms
 
 Dijkstra's Algorithm, A*, and Bidirectional search 
-
-## Physical Components
-
-## Raspberry Pi
-
-Raspberry Pi Configuration
-Raspberry Pi GPIO
-
 # Idea Deep Dive
 ## Physical System
 The physical system will be made up of:
 	A Raspberry Pi 5
-	GPS Receiver (U-blox NEO-6M GPS Module)
+	GPS Receiver
 	LCD 7" Touch screen display
+With the Raspberry Pi acting as the central unit, and the GPS Receiver soldered on, and screen connected through HDMI and USB. 
+The whole system will be powered through USB-C wall connected to a USB-C to Cigarette Lighter port. 
 ## Pi OS Configuration
 
 Change the config.txt which acts as the bios of the raspberry pi, to allow the gps to connect through the gpio pins. Also eventually strip down the Raspberry Pi OS install to just the required packages. Make it automatically launch my app upon booting. 
