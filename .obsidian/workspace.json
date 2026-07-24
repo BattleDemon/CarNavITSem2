@@ -11,14 +11,12 @@
             "id": "9dcb6830e1f48a06",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Preplanning/Preplanning.md",
-                "mode": "source",
-                "source": false
+                "file": "Preplanning/Raspberry-Pi-5-Pinout--1210x642.jpg"
               },
-              "icon": "lucide-file",
-              "title": "Preplanning"
+              "icon": "lucide-image",
+              "title": "Raspberry-Pi-5-Pinout--1210x642"
             }
           }
         ]
@@ -181,15 +179,19 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
   "active": "9dcb6830e1f48a06",
   "lastOpenFiles": [
-    "Preplanning/Raspberry-Pi-5-Pinout_Highlighted.jpg",
     "NEO-6_DataSheet_(GPS.G6-HW-09005).pdf",
+    "gpiozero-readthedocs-io-en-stable.pdf",
     "Preplanning/Preplanning.md",
     "Preplanning/Raspberry-Pi-5-Pinout--1210x642.jpg",
+    "Preplanning/Raspberry-Pi-5-Pinout_Highlighted.jpg",
     "Documentation/documentation.md",
     "README.md",
     "Code/gps/gps.py~",
@@ -199,7 +201,6 @@
     "Documentation",
     "Code/resources/temp.txt",
     "Code/resources",
-    "Code/ui/temp.txt",
-    "Code/gps/temp.txt"
+    "Code/ui/temp.txt"
   ]
 }
