@@ -189,6 +189,9 @@
   },
   "active": "9dcb6830e1f48a06",
   "lastOpenFiles": [
+    "AU-streets.tsv.gz",
+    "AU-houses.tsv.gz",
+    "AU-addresses.tsv.gz",
     "Preplanning/Raspberry-Pi-5-Pinout--1210x642.jpg",
     "Preplanning/Raspberry-Pi-5-Pinout_Highlighted.jpg",
     "Preplanning/Preplanning.md",
@@ -201,8 +204,6 @@
     "Code/gps/gps.py",
     "Documentation/temp.txt",
     "Documentation",
-    "Code/resources/temp.txt",
-    "Code/resources",
-    "Code/ui/temp.txt"
+    "Code/resources/temp.txt"
   ]
 }
