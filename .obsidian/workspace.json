@@ -189,6 +189,8 @@
   },
   "active": "9dcb6830e1f48a06",
   "lastOpenFiles": [
+    "Code/debug.py~",
+    "Code/debug.py",
     "Code/main.py~",
     "Code/gps/gps.py~",
     "NEO-6_DataSheet_(GPS.G6-HW-09005).pdf",
@@ -202,8 +204,6 @@
     "AU-addresses.tsv.gz",
     "README.md",
     "Documentation/documentation.md",
-    "Code/ui/ui.py",
-    "Code/gps/gps.py",
-    "Documentation/temp.txt"
+    "Code/ui/ui.py"
   ]
 }
