@@ -49,11 +49,11 @@ Pre-recorded "Turn Left", "Turn Right" notifications, would require adding a spe
 # Timeline
 
 ## GitHub Roadmap
-## Week By Week
-#### Week 1 (20th July)
 
-#### Week 2 (27th July)
+## Timeline of Design
 
-#### Week 3 (2nd August)
-Proposal Due Friday (7th), finalise plan for project.
-#### Week 4 (9th August)
+Given 22nd of July
+
+Proposal Due 7th of August
+
+Due 6th of November 
