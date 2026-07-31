@@ -1,22 +1,37 @@
 import serial
-import time
 import pynmea2
+import _thread
 
-while True:
-    port = "/dev/ttyAMAO"
+GPS_PORT = "/dev/ttyAMAO"
 
-    ser = serial.Serial(port, baudrate=9600, timeout=0.5)
 
-    dataout = pynmea2.NMEAStreamReader()
-    newdata = ser.readline()
+class GPSManager:
+    def __init__(self):
+        self.port = GPS_PORT
+        self.lat
+        self.lng
 
-    if newdata[0:6] == "$GPRMC":
-        newmsg = pynmea2.parse(newdata)
+        self.update_thread = _thread.start_new_thread(self._update)
 
-        lat = newmsg.latitude
+    def _update(self):  # _ for internal function, loop to update gps location
+        while True:
+            ser = serial.Serial(self.port, baudrate=9600, timeout=0.5)
 
-        lng = newmsg.longitude
+            rawdata = ser.readline()
 
-        gps = "Latitude=" + str(lat) + "and Longitude=" + str(lng)
+            if (
+                rawdata[0:6] == "$GPRMC"
+            ):  # Filter for only GPS message containing location, time, velocity
+                data = pynmea2.parse(rawdata)
 
-    print(gps)
+                lat = data.latitude
+                lng = data.longitude
+
+                self.set_location(lat, lng)  # Update internal position
+
+    def get_location(self):  # Called by other files when needed to get location
+        return [self.lat, self.lng]
+
+    def _set_location(self, lat, lng):  # Internal set lat and lng
+        self.lat = lat
+        self.lgn = lng

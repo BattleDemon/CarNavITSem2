@@ -1,7 +1,7 @@
 Dexter Hart
 # Idea Overview
 
-To design and produce an integrated system for use as a GPS navigator, similar to google maps, Waze, ect. I will use a Raspberry Pi 5, a GPS receiver, and touch screen as the physical system. Which will be supported by a UI made with QT, a back end for route calculations, and map database from OpenStreetData and OpenStreetMaps. 
+Design and produce an integrated system for use as a GPS navigator, similar to google maps, Waze, ect. Which will use a Raspberry Pi 5, a GPS receiver, and touch screen as the physical system. While been supported by a UI made with QT, a back end for route calculations, and map database. 
 # Research
 
 ## Commercial Systems and Other Alternatives
@@ -9,6 +9,11 @@ To design and produce an integrated system for use as a GPS navigator, similar t
 ## Route Calculation Algorithms
 
 Dijkstra's Algorithm, A*, and Bidirectional search 
+
+## UI Options
+
+
+
 # Idea Deep Dive
 ## Physical System
 The physical system will be made up of:
