@@ -1,4 +1,4 @@
-Dexter Hart
+<div style="text-align: right;"> Dexter Hart </div>
 # Idea Overview
 
 Design and produce an integrated system for use as a GPS navigator, similar to google maps, Waze, ect. Which will use a Raspberry Pi 5, a GPS receiver, and touch screen as the physical system. While been supported by a UI made with QT, a back end for route calculations, and map database. 
