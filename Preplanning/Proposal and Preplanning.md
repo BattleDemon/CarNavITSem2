@@ -1,16 +1,17 @@
 <div style="text-align: right;"> Dexter Hart </div>
-# Idea Overview
+## Project Overview
 
-Design and produce an integrated system for use as a GPS navigator, similar to google maps, Waze, ect. Which will use a Raspberry Pi 5, a GPS receiver, and touch screen as the physical system. While been supported by a UI made with QT, a back end for route calculation, and a map database. 
-# Research
+I intend to design and produce an integrated system for GPS navigation, which will be similar to commercial options such as Garmin, or Navig8r. It will use a Raspberry Pi 5, GPS receiver, and touch screen, for the physical system. While been connected with a PyQT based UI, and python route calculation using OpenStreetData. It is mainly designed for my own use, as a test of my skills, and to learn new systems. As I should soon get my provisional license, and my car doesn't have a navigation system of its own, along with the restrictions to phone, I found it useful and within my ability to make my own. 
 
-## Commercial Systems and Other Alternatives
+## Research
 
-## Route Calculation Algorithms
+### Commercial Systems and Other Alternatives
+
+### Route Calculation Algorithms
 
 Dijkstra's Algorithm, A*, and Bidirectional search 
 
-## UI Options
+### UI Options
 
 
 
