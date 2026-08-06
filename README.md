@@ -1,7 +1,6 @@
 # Car Navigation System
-**Dexter Hart**
-
-## Preplanning
+<div style="text-align: right;"> Dexter Hart </div>
+## Proposal 
 
 ### Initial Idea
 
@@ -10,3 +9,4 @@
 ### Hardware Plan
 
 ### Software Plan
+
