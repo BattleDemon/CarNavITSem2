@@ -13,7 +13,6 @@ Software options such as Google Maps, Waze, and Organic Maps offer a system that
 ### Data Sources
 
 Navigation systems require detailed geographical data, including roads, intersections, points of interest, and more. With commercial options such as HERE Technologies, TomTom, and Google Maps offering accurate datasets and other services such as traffic information, but their licensing cost of HERE and TomTom, which offer free initial use but with steep prices if those limits are breach, and google starting at $100 per month these caused too many risks especially if my code is inefficient or making too many API calls. This combined with perfectly fine free and open source options been available such as OpenStreetMap and Data. With them containing roads, intersections, and some additional data, making it susceptible for my needs. Although the quality for some regions can vary, although this shouldn't be as big of a problem since, i will be primarily using it within the ACT which has been sufficiently mapped. 
-
 ### Route Calculation Algorithms
 
 Route calculations rely on graph based search algorithms to determine the most efficient path between two locations. Dijkstra's Algorithm is one of the most well known and is generally efficient at finding the optimal routes but can become ineffective on larger road networks. With A* improving on this by less perfectionist search, reducing the number of paths checked while still been usable. More advanced option can also be used, such as a Bidirectional search either A* or Dijkstra's, allowing it to search from start to end and end to start. Along with Contraction Hierarchies, which reduces the use of smaller streets in the algorithm. Companies don't publicly showcase their algorithms, but most are at least adaptations of either A* or Dijkstra's, with some combining historic traffic data in the weighting. Due to the scale of this project and the complexities in this assignment I will be using A* initially. 
@@ -22,12 +21,12 @@ Route calculations rely on graph based search algorithms to determine the most e
 
 The core features will consist of an offline navigation system integrating custom hardware and software. The system will be built around a Raspberry Pi 5 with a GPS receiver and touchscreen display. The software will interpret GPS data to determine the user's location and display this position using locally stored OpenStreetMap data through a Qt-based user interface. The interface will include destination searching, which will trigger route calculation using the A* routing algorithm.
 
-
 ## Beyond Minimum Viable Product
-#### Route Algorithms
-Either custom make my own route calculating algorithm or implement a range of known route algorithms, with some maybe taking into account average traffic at peak times ect, while still staying offline (so not real time traffic).
-#### More Advanced UI and system
-Be able to have multi destination routes, or saved locations.
+
+#### Expanded Route Algorithm
+Implement and compare routing algorithms, or possible offline traffic estimations. 
+#### Additional UI Features
+Be able to have multi destination routes, or saved locations, along with other user settings.
 #### Voice Instructions
 Pre-recorded "Turn Left", "Turn Right" notifications, would require adding a speaker or integration into the cars speaker.
 #### 3D Printed Chassis 
