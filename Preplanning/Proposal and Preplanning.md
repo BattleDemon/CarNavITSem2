@@ -34,15 +34,59 @@ Pre-recorded "Turn Left", "Turn Right" notifications, would require adding a spe
 
 ## Timeline
 
-### GitHub Roadmap
-
 ### Timeline of Design
 
-Given 22nd of July
+##### Milestone 1: Research and Initial set up 
+Start/End Date: Project assigned - 7th August
 
-Proposal Due 7th of August
+Research navigation systems and algorithms
+Research OpenStreetMap data, format, and download
+Setup rough file structure and plan
+Setup raspberry pi
+Test hardware
 
-Due 6th of November 
+##### Milestone 2: Extract data and GPS system
+Start/End Date: 7th August - 19th August
+
+Connect GPS to Raspberry Pi
+Decode GPS NMEA data
+Transform into usable location data
+Import and process OpenStreetMap data
+link GPS location and map
+
+##### Milestone 3: Navigation Backend
+Start/End Date: 19th August - 3rd September
+
+Create testing node route system
+Implement and test A* 
+Optimise route calculation 
+Test routes using various data / route length
+
+##### Milestone 4: UI and Last MVP
+Start/End Date: 3rd - 17th September
+
+Make user friendly Qt touchscreen UI
+Display current location
+Render map and route information
+Add destination search
+Integrate GPS, routing, and UI as one thing
+Complete the minimum viable product
+
+##### Milestone 5: Stress Testing and Documenting
+Start/End Date: 17th September - 25th 
+
+Test navigation accuracy IRL in many situations
+Test different routes, accuracy, and compare to other alternatives
+Complete MVP documentation
+
+##### Milestone 6: Stretch Goals and General Improvements
+Start/End Date: 25th September - 6th November
+
+Implement additional route algorithms (bidirectional and hierarchical)
+Saved locations and multi stop routes
+Voice instructions
+Design and Print custom chassis
+
 
 ## Bibliography
 
