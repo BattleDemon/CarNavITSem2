@@ -12,11 +12,11 @@ Existing navigation systems form in two categories of hardware devices and softw
 Software options such as Google Maps, Waze, and Organic Maps offer a system that utilised your phone or other hardware. With Google Maps and Waze providing features such as live traffic, automatic rerouting, and frequent updated maps, although these often depend on an active internet connection. While Organic Maps, acts fully offline with navigation possible using open street maps similar to my proposed project.
 ### Data Sources
 
-Navigation systems 
+Navigation systems require detailed geographical data, including roads, intersections, points of interest, and more. With commercial options such as HERE Technologies, TomTom, and Google Maps offering accurate datasets and other services such as traffic information, but their licensing cost of HERE and TomTom, which offer free initial use but with steep prices if those limits are breach, and google starting at $100 per month these caused too many risks especially if my code is inefficient or making too many API calls. This conbined with perfectly fine free and open source options been available such as OpenStreetMap and Data. With them containing roads, intersections, and some additional data, making it susceptible for my needs. Although the quality for some regions can vary, although this shouldn't be as big of a problem since, i will be primarily using it within the ACT which has been sufficiently mapped. 
 
 ### Route Calculation Algorithms
 
-Dijkstra's Algorithm, A*, and Bidirectional search 
+Route calculations rely on graph based search algorithms to determine the most efficient path between two locations. Dijkstra's Algorithm is one of the most well known and is generally efficient at finding the optimal routes but can become ineffective on larger road networks. With A* improving on this by less perfectionist search, reducing the number of paths checked while still been usable. More advanced option can also be used, such as a Bidirectional search either A* or Dijkstra's, allowing it to search from start to end and end to start. Along with Contraction Hierarchies, which reduces the use of smaller streets in the algorithm. Companies don't publicly showcase their algorithms, but most are at least adaptations of either A* or Dijkstra's, with some combining historic traffic data in the weighting. Due to the scale of this project and the complexities in this assignment I will be using A* initially. 
 
 ## Core Features
 ### Physical System
