@@ -7,8 +7,12 @@ I intend to design and produce an integrated system for GPS navigation, which wi
 
 ### Commercial Systems and Other Alternatives
 
+Existing navigation systems form in two categories of hardware devices and software. With dedicated GPS systems such as Garmin and Navig8r, use an inbuilt GPS receiver, processor, storage, and usually a touchscreen, combined into a single device. With these devices ranging greatly in price for $100 to some around $1000, while my whole system should be around $300, while been repurposable in the future. These standalone devices and also often be used offline, as they store their maps locally, although this prevents traffic or map updates.
 
+Software options such as Google Maps, Waze, and Organic Maps offer a system that utilised your phone or other hardware. With Google Maps and Waze providing features such as live traffic, automatic rerouting, and frequent updated maps, although these often depend on an active internet connection. While Organic Maps, acts fully offline with navigation possible using open street maps similar to my proposed project.
 ### Data Sources
+
+Navigation systems 
 
 ### Route Calculation Algorithms
 
