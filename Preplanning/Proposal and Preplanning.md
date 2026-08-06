@@ -7,34 +7,33 @@ I intend to design and produce an integrated system for GPS navigation, which wi
 
 ### Commercial Systems and Other Alternatives
 
+
+### Data Sources
+
 ### Route Calculation Algorithms
 
 Dijkstra's Algorithm, A*, and Bidirectional search 
 
-### UI Options
-
-
-
-# Idea Deep Dive
-## Physical System
+## Core Features
+### Physical System
 The physical system will be made up of:
 	A Raspberry Pi 5
 	GPS Receiver
 	LCD 7" Touch screen display
 With the Raspberry Pi acting as the central unit, and the GPS Receiver soldered on, and screen connected through HDMI and USB. 
 The whole system will be powered through USB-C wall connected to a USB-C to Cigarette Lighter port. 
-## Pi OS Configuration
+### Pi OS Configuration
 
 Change the config.txt which acts as the bios of the raspberry pi, to allow the gps to connect through the gpio pins. Also eventually strip down the Raspberry Pi OS install to just the required packages. Make it automatically launch my app upon booting. 
 
-## GPS Interpretation
+### GPS Interpretation
 
 Handle incoming GPS NMEA data, either decode into Longitude and Latitude or keep as is (depends on how the OpenStreetData handles gps location)
 
-## UI System
+### UI System
 Design a simple UI system that handles the touch screen input. Allow rendering of map, with route highlighting / traced. Display next action eg. "Turn left in 100m". Allow searching of destination and selection. Configurable setting eg. Font Size, UI Scale, ect. 
 
-## Route Algorithm
+### Route Algorithm
 Implement a version of a popular route algorithm, based on research.
 
 ## Beyond Minimum Viable Product
