@@ -18,8 +18,9 @@ Navigation systems require detailed geographical data, including roads, intersec
 
 Route calculations rely on graph based search algorithms to determine the most efficient path between two locations. Dijkstra's Algorithm is one of the most well known and is generally efficient at finding the optimal routes but can become ineffective on larger road networks. With A* improving on this by less perfectionist search, reducing the number of paths checked while still been usable. More advanced option can also be used, such as a Bidirectional search either A* or Dijkstra's, allowing it to search from start to end and end to start. Along with Contraction Hierarchies, which reduces the use of smaller streets in the algorithm. Companies don't publicly showcase their algorithms, but most are at least adaptations of either A* or Dijkstra's, with some combining historic traffic data in the weighting. Due to the scale of this project and the complexities in this assignment I will be using A* initially. 
 
-## Core Features
+## Core Features / Minimal Viable Product
 
+The core features will consist of an offline navigation system integrating custom hardware and software. The system will be built around a Raspberry Pi 5 with a GPS receiver and touchscreen display. The software will interpret GPS data to determine the user's location and display this position using locally stored OpenStreetMap data through a Qt-based user interface. The interface will include destination searching, which will trigger route calculation using the A* routing algorithm.
 
 
 ## Beyond Minimum Viable Product
