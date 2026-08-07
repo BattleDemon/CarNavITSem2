@@ -53,6 +53,7 @@ Decode GPS NMEA data
 Transform into usable location data
 Import and process OpenStreetMap data
 link GPS location and map
+Test GPS in multiple locations and in differing conditions
 
 ##### Milestone 3: Navigation Backend
 Start/End Date: 19th August - 3rd September
@@ -65,10 +66,11 @@ Test routes using various data / route length
 ##### Milestone 4: UI and Last MVP
 Start/End Date: 3rd - 17th September
 
-Make user friendly Qt touchscreen UI
+Make Qt touchscreen UI
+Render map
 Display current location
-Render map and route information
 Add destination search
+Render route information
 Integrate GPS, routing, and UI as one thing
 Complete the minimum viable product
 
@@ -79,13 +81,42 @@ Test navigation accuracy IRL in many situations
 Test different routes, accuracy, and compare to other alternatives
 Complete MVP documentation
 
-##### Milestone 6: Stretch Goals and General Improvements
+Steps following MVP might not follow same order as shown and all have same time frame
+
+##### Milestone 6: Stretch Goal - Expanded route Algorithm
 Start/End Date: 25th September - 6th November
 
-Implement additional route algorithms (bidirectional and hierarchical)
-Saved locations and multi stop routes
-Voice instructions
-Design and Print custom chassis
+Implement bidirectional search into testing program
+Implement heirachical into testing program
+Improve on algorithm and test various cases
+Implement into full program
+
+##### Milestone 7: Stretch Goal - Voice Instructions
+Start/End Date: 25th September - 6th November
+
+Research into connecting into car speaker or deticated speakers 
+Implement best option
+Record voice lines
+Connect to full system
+
+##### Milestone 8: Stretch Goal - UI Improvements and addional features
+Start/End Date: 25th September - 6th November
+
+Research into similar options specifically their UI
+Test how other individuals find my UI
+Improve on others suggestions
+Implement found features 
+Implement multi location search
+Allow user settings
+
+##### Milestone 9: Stretch Goal - 3D printed chassis
+Start/End Date: 25th September - 6th November
+
+Design 3D printed chassis
+Print chassis
+mount chassis 
+Test system in car with chassis
+Test system with other drivers
 
 
 ## Bibliography
