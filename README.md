@@ -1,5 +1,6 @@
 # Integrated Car Navigation and GPS
 <div style="text-align: right;"> Dexter Hart </div>
+
 ## Proposal 
 
 ### Project Overview
