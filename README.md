@@ -4,40 +4,38 @@
 
 ### Project Overview
 
-I intend to design and produce an integrated system for GPS navigation, which will be similar to commercial options such as Garmin, or Navig8r. It will use a Raspberry Pi 5, GPS receiver, and touch screen, for the physical system. While been connected with a PyQT based UI, and python route calculation using OpenStreetData. It is mainly designed for my own use, as a test of my skills, and to learn new systems. As I should soon get my provisional license, and my car doesn't have a navigation system of its own, along with the restrictions to phone, I found it useful and within my ability to make my own. 
+I intend to design and produce an integrated system for GPS navigation, which will be similar to commercial options such as Garmin, or Navig8r. It will use a Raspberry Pi 5, GPS receiver, and touch screen, for the physical system. While connected with a PyQT UI, and python route calculation using OpenStreetData. It is designed for my own use, as a test of my skills, and to learn new systems. As I should soon get my provisional license, and my car doesn't have a navigation system of its own, along with the restrictions to phone, I found it useful and within my ability to make my own. 
 
 ### Research
 
 #### Commercial Systems and Other Alternatives
 
-Existing navigation systems form in two categories of hardware devices and software. With dedicated GPS systems such as Garmin and Navig8r, use an inbuilt GPS receiver, processor, storage, and usually a touchscreen, combined into a single device. With these devices ranging greatly in price for $100 to some around $1000, while my whole system should be around $300, while been repurposable in the future. These standalone devices and also often be used offline, as they store their maps locally, although this prevents traffic or map updates.
+Existing navigation systems form in two categories of hardware and software. With dedicated GPS systems such as Garmin and Navig8r, useing inbuilt GPS receiver, processor, storage, and a touchscreen, combined into a single device. With these devices ranging in price form $100 - $1000, while my system should be around $300, and repurposable in the future. These standalone devices are often used offline, and store their maps locally, but prevents traffic or map updates.
 
-Software options such as Google Maps, Waze, and Organic Maps offer a system that utilised your phone or other hardware. With Google Maps and Waze providing features such as live traffic, automatic rerouting, and frequent updated maps, although these often depend on an active internet connection. While Organic Maps, acts fully offline with navigation possible using open street maps similar to my proposed project.
+Software such as Google Maps, Waze, and Organic Maps offer a system that utilised your phone or other hardware. With Google Maps and Waze providing features such as live traffic, automatic rerouting, and frequent updates, although these depend on an active internet connection. While Organic Maps, acts fully offline with navigation possible using open street maps similar to my proposed project.
 #### Data Sources
 
-Navigation systems require detailed geographical data, including roads, intersections, points of interest, and more. With commercial options such as HERE Technologies, TomTom, and Google Maps offering accurate datasets and other services such as traffic information, but their licensing cost of HERE and TomTom, which offer free initial use but with steep prices if those limits are breach, and google starting at $100 per month these caused too many risks especially if my code is inefficient or making too many API calls. This combined with perfectly fine free and open source options been available such as OpenStreetMap and Data. With them containing roads, intersections, and some additional data, making it susceptible for my needs. Although the quality for some regions can vary, although this shouldn't be as big of a problem since, i will be primarily using it within the ACT which has been sufficiently mapped. 
+Navigation systems require detailed geographical data, including roads, intersections, and points of interest. With commercial options such as HERE Technologies, TomTom, and Google Maps offering accurate datasets and other services like traffic information, but their licensing cost range from HERE and TomTom, which offer free initial use but with steep prices if those limits are breach, and google starting at $100 per month causing too many risks especially if my code is inefficient or making too many API calls. This combined with excellent free and open source options been available such as OpenStreetMaps. Which contains roads, intersections, and some additional data, making it susceptible for my needs. Although the quality for some regions can vary, although this shouldn't be as big of a problem since, it will be primarily used within the ACT which has been mapped. 
 #### Route Calculation Algorithms
 
-Route calculations rely on graph based search algorithms to determine the most efficient path between two locations. Dijkstra's Algorithm is one of the most well known and is generally efficient at finding the optimal routes but can become ineffective on larger road networks. With A* improving on this by less perfectionist search, reducing the number of paths checked while still been usable. More advanced option can also be used, such as a Bidirectional search either A* or Dijkstra's, allowing it to search from start to end and end to start. Along with Contraction Hierarchies, which reduces the use of smaller streets in the algorithm. Companies don't publicly showcase their algorithms, but most are at least adaptations of either A* or Dijkstra's, with some combining historic traffic data in the weighting. Due to the scale of this project and the complexities in this assignment I will be using A* initially. 
+Route calculations rely on graph based search algorithms to determine the most efficient path between two locations. Dijkstra's Algorithm is one of the most well known and is generally efficient at finding the optimal routes but can become ineffective on larger road networks. With A* improving on this by less perfectionist search, reducing the number of paths checked while still been usable. More advanced option can also be used, such as a Bidirectional search either A* or Dijkstra's, allowing it to search from start to end and end to start. Along with Contraction Hierarchies, which reduces the use of smaller streets in the algorithm. Companies don't publicly showcase their algorithms, but most are adaptations of A* or Dijkstra's, with some combining historic traffic in the weighting. Due to the scale of this project and complexities in this assignment I will be using A* with possibilities for growth. 
 
 ### Core Features / Minimal Viable Product
 
-The core features will consist of an offline navigation system integrating custom hardware and software. The system will be built around a Raspberry Pi 5 with a GPS receiver and touchscreen display. The software will interpret GPS data to determine the user's location and display this position using locally stored OpenStreetMap data through a Qt-based user interface. The interface will include destination searching, which will trigger route calculation using the A* routing algorithm.
+The core features will consist of an offline navigation system integrating custom hardware and software. The system will be built around a Raspberry Pi 5 with a GPS receiver and touchscreen display. The software will interpret GPS data to determine the user's location and display this position using locally stored OpenStreetMap data through a Qt-based UI. The interface will include destination searching, triggering route calculation.
 
 ### Beyond Minimum Viable Product
 
 #### Expanded Route Algorithm
-Implement and compare routing algorithms, or possible offline traffic estimations. 
+Implement bidirectional and heirachical, and or offline traffic estimations. 
 #### Additional UI Features
-Be able to have multi destination routes, or saved locations, along with other user settings.
+Be able to have multi destination routes, saved locations, along with other user settings.
 #### Voice Instructions
-Pre-recorded "Turn Left", "Turn Right" notifications, would require adding a speaker or integration into the cars speaker.
+Add "Turn Left", "Turn Right" notifications, require adding a speaker or integration into the cars speaker.
 #### 3D Printed Chassis 
-3D model and print a chassis specifically designed to mount this system in my car. 
+3D model and print a chassis designed to mount the system in my car. 
 
 ### Timeline
-
-#### Timeline of Design
 
 ##### Milestone 1: Research and Initial set up 
 Start/End Date: Project assigned - 7th August
@@ -56,6 +54,7 @@ Decode GPS NMEA data
 Transform into usable location data
 Import and process OpenStreetMap data
 link GPS location and map
+Test GPS in multiple locations and in differing conditions
 
 ##### Milestone 3: Navigation Backend
 Start/End Date: 19th August - 3rd September
@@ -68,10 +67,11 @@ Test routes using various data / route length
 ##### Milestone 4: UI and Last MVP
 Start/End Date: 3rd - 17th September
 
-Make user friendly Qt touchscreen UI
+Make Qt touchscreen UI
+Render map
 Display current location
-Render map and route information
 Add destination search
+Render route information
 Integrate GPS, routing, and UI as one thing
 Complete the minimum viable product
 
@@ -82,13 +82,42 @@ Test navigation accuracy IRL in many situations
 Test different routes, accuracy, and compare to other alternatives
 Complete MVP documentation
 
-##### Milestone 6: Stretch Goals and General Improvements
+Steps following MVP might not follow same order as shown and all have same time frame
+
+##### Milestone 6: Stretch Goal - Expanded route Algorithm
 Start/End Date: 25th September - 6th November
 
-Implement additional route algorithms (bidirectional and hierarchical)
-Saved locations and multi stop routes
-Voice instructions
-Design and Print custom chassis
+Implement bidirectional search into testing program
+Implement heirachical into testing program
+Improve on algorithm and test various cases
+Implement into full program
+
+##### Milestone 7: Stretch Goal - Voice Instructions
+Start/End Date: 25th September - 6th November
+
+Research into connecting into car speaker or deticated speakers 
+Implement best option
+Record voice lines
+Connect to full system
+
+##### Milestone 8: Stretch Goal - UI Improvements and addional features
+Start/End Date: 25th September - 6th November
+
+Research into similar options specifically their UI
+Test how other individuals find my UI
+Improve on others suggestions
+Implement found features 
+Implement multi location search
+Allow user settings
+
+##### Milestone 9: Stretch Goal - 3D printed chassis
+Start/End Date: 25th September - 6th November
+
+Design 3D printed chassis
+Print chassis
+mount chassis 
+Test system in car with chassis
+Test system with other drivers
 
 ### Proposal Bibliography
 
