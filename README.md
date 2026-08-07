@@ -90,7 +90,7 @@ Saved locations and multi stop routes
 Voice instructions
 Design and Print custom chassis
 
-### Bibliography
+### Proposal Bibliography
 
 Codecademy 2025, _A complete guide to Dijkstra’s shortest path algorithm_, _Codecademy_, viewed 6 August 2026, <https://www.codecademy.com/article/dijkstras-shortest-path-algorithm>.
 
