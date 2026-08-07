@@ -167,5 +167,7 @@ Designs (diagrams)
 ### Developing Minimum Viable Project
 
 
+### Expanding on Minimum Viable Project
+
 
 ## Evaluation and Review
