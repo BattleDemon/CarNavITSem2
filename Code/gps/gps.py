@@ -2,15 +2,18 @@ import serial
 import pynmea2
 import _thread
 
+# location of gps port
 GPS_PORT = "/dev/ttyAMAO"
 
 
+# GPS manager class
 class GPSManager:
     def __init__(self):
         self.port = GPS_PORT
-        self.lat
-        self.lng
+        self.lat = None
+        self.lng = None
 
+        # Create thread for gps location update
         self.update_thread = _thread.start_new_thread(self._update)
 
     def _update(self):  # _ for internal function, loop to update gps location
