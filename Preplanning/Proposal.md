@@ -24,13 +24,13 @@ The core features will consist of an offline navigation system integrating custo
 ## Beyond Minimum Viable Product
 
 #### Expanded Route Algorithm
-Implement and compare routing algorithms, or possible offline traffic estimations. 
+Implement bidirectional and heirachical, and or offline traffic estimations. 
 #### Additional UI Features
-Be able to have multi destination routes, or saved locations, along with other user settings.
+Be able to have multi destination routes, saved locations, along with other user settings.
 #### Voice Instructions
-Pre-recorded "Turn Left", "Turn Right" notifications, would require adding a speaker or integration into the cars speaker.
+Add "Turn Left", "Turn Right" notifications, require adding a speaker or integration into the cars speaker.
 #### 3D Printed Chassis 
-3D model and print a chassis specifically designed to mount this system in my car. 
+3D model and print a chassis designed to mount the system in my car. 
 
 ## Timeline
 
