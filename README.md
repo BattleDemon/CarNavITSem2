@@ -1,4 +1,4 @@
-# Car Navigation System
+# Integrated Car Navigation and GPS
 <div style="text-align: right;"> Dexter Hart </div>
 ## Proposal 
 
@@ -128,6 +128,14 @@ Waze 2026, _Driving directions, live traffic & road conditions updates_, _Waze_,
 
 ## Preplanning
 
+psuedocode 
+Flow chrarts
+Designs (diagrams)
+
 ## Development and Design Thinking
+
+### Developing Minimum Viable Project
+
+
 
 ## Evaluation and Review
