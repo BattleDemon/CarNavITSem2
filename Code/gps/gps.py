@@ -3,7 +3,7 @@ import pynmea2
 import _thread
 
 # location of gps port
-GPS_PORT = "/dev/ttyAMAO"
+GPS_PORT = "/dev/ttyAMA0"
 
 
 # GPS manager class
@@ -30,7 +30,7 @@ class GPSManager:
                 lat = data.latitude
                 lng = data.longitude
 
-                self.set_location(lat, lng)  # Update internal position
+                self._set_location(lat, lng)  # Update internal position
 
     def get_location(self):  # Called by other files when needed to get location
         return [self.lat, self.lng]
