@@ -13,14 +13,14 @@ class GPSManager:
         self.lat = None
         self.lng = None
 
+        self.ser = serial.Serial(self.port, baudrate=9600, timeout=0.5)
+
         # Create thread for gps location update
         self.update_thread = _thread.start_new_thread(self._update)
 
     def _update(self):  # _ for internal function, loop to update gps location
         while True:
-            ser = serial.Serial(self.port, baudrate=9600, timeout=0.5)
-
-            rawdata = ser.readline()
+            rawdata = self.ser.readline()
 
             if (
                 rawdata[0:6] == "$GPRMC"
