@@ -166,6 +166,8 @@ Designs (diagrams)
 
 ### Developing Minimum Viable Project
 
+#### Milestone 2: Extract data and GPS System
+
 
 ### Expanding on Minimum Viable Project
 
