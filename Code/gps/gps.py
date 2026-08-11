@@ -13,6 +13,8 @@ class GPSManager:
         self.lat = None
         self.lng = None
 
+        self.speed = None
+
         self.ser = serial.Serial(self.port, baudrate=9600, timeout=0.5)
 
         # Create thread for gps location update
@@ -22,19 +24,20 @@ class GPSManager:
         while True:
             rawdata = self.ser.readline()
 
-            if (
-                rawdata[0:6] == "$GPRMC"
-            ):  # Filter for only GPS message containing location, time, velocity
+            if rawdata[0:5] == "$GNRMC":
                 data = pynmea2.parse(rawdata)
 
                 lat = data.latitude
                 lng = data.longitude
 
-                self._set_location(lat, lng)  # Update internal position
+                speed = data.spd_over_grnd
+
+                self._set_location_speed(lat, lng, speed)
 
     def get_location(self):  # Called by other files when needed to get location
         return [self.lat, self.lng]
 
-    def _set_location(self, lat, lng):  # Internal set lat and lng
+    def _set_location_speed(self, lat, lng, speed):
         self.lat = lat
-        self.lgn = lng
+        self.lng = lng
+        self.speed = speed
