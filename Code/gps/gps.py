@@ -43,8 +43,8 @@ class GPSManager:
                 # Set class data
                 self._set_location_speed(lat, lng, speed)
 
-    def get_location(self):  # Called by other files when needed to get location
-        return [self.lat, self.lng]
+    def get_location_speed(self):  # Called by other files when needed to get location
+        return [self.lat, self.lng, self.speed]
 
     # Set location in class
     def _set_location_speed(self, lat, lng, speed):
