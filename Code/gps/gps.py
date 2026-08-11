@@ -13,6 +13,7 @@ class GPSManager:
         self.lat = None
         self.lng = None
 
+        # km/h
         self.speed = None
 
         # Set a refrence to the gps's serial data
@@ -35,7 +36,9 @@ class GPSManager:
                 lat = data.latitude
                 lng = data.longitude
 
-                speed = data.spd_over_grnd
+                # Get raw speed (in knots), then change to km/h
+                speed_knots = data.spd_over_grnd
+                speed = speed_knots * 1.852
 
                 # Set class data
                 self._set_location_speed(lat, lng, speed)
