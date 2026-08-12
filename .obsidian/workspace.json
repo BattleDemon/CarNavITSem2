@@ -191,6 +191,10 @@
   },
   "active": "9dcb6830e1f48a06",
   "lastOpenFiles": [
+    "Code/TESTING/gps_test1.py~",
+    "data.txt",
+    "gpsdata_window.txt",
+    "Code/TESTING/gps_test1.py",
     "Code/main.py~",
     "Code/gps/gps.py~",
     "Preplanning/Proposal.md",
@@ -202,9 +206,6 @@
     "Code/debug.py",
     "NEO-6_DataSheet_(GPS.G6-HW-09005).pdf",
     "gpiozero-readthedocs-io-en-stable.pdf",
-    "australia-260722.osm.pbf",
-    "AU-streets.tsv.gz",
-    "AU-houses.tsv.gz",
-    "AU-addresses.tsv.gz"
+    "australia-260722.osm.pbf"
   ]
 }
