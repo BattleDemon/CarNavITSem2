@@ -53,3 +53,15 @@ dtoverlay=nospi10
 
 [all]
 dtparam=uart0=on
+
+dtparam=fan_temp0=20000
+dtparam=fan_temp0_speed=70
+
+dtparam=fan_temp1=45000
+dtparam=fan_temp1_speed=125
+
+dtparam=fan_temp2=60000
+dtparam=fan_temp2_speed=175
+
+dtparam=fan_temp3=75000
+dtparam=fan_temp3_speed=225
