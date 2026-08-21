@@ -17,12 +17,7 @@ drive_net = osm.get_network(network_type="driving")
 drive_net.plot()
 print("end")
 
-fp2 = pyrosm.get_data(
-    "/home/dexter/Documents/GitHub/CarNavITSem2/australia-260722.osm.pbf"
-)
-print(fp2)
-
-osm1 = pyrosm.OSM(fp2)
+osm1 = pyrosm.OSM("/home/dexter/Documents/GitHub/CarNavITSem2/australia-260722.osm.pbf")
 
 drive_net2 = osm.get_network(network_type="driving")
 drive_net2.plot()
