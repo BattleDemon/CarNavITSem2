@@ -12,7 +12,7 @@ import PyQt5
 from gps.gps import GPSManager
 
 
-class CarNavigation:
+class CarNavApp:
     def __init__(self):
         self.GPSManager = GPSManager()
         self.lot_lng_speed = [0, 0, 0]
