@@ -21,9 +21,10 @@ class GPSManager:
 
         # Create thread for gps location update
         self.update_thread = _thread.start_new_thread(self._update)
+        self.running = True
 
     def _update(self):  # _ for internal function, loop to update gps location
-        while True:
+        while self.running:
             rawdata = self.ser.readline()
 
             # Check if the raw data is the correct type
@@ -51,3 +52,7 @@ class GPSManager:
         self.lat = lat
         self.lng = lng
         self.speed = speed
+
+    def stop(self):
+        self.running = False
+        self.ser.close()
