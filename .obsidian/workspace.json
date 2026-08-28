@@ -191,6 +191,9 @@
   },
   "active": "9dcb6830e1f48a06",
   "lastOpenFiles": [
+    "Data/AU-streets.tsv.gz",
+    "Data/AU-houses.tsv.gz",
+    "Data/AU-addresses.tsv.gz",
     "Code/map/geojson_split.py",
     "Data/ACTGOV_DISTRICTS_-2248938068983619392.geojson~",
     "Data/ACTGOV_DISTRICTS_-2248938068983619392.geojson",
@@ -208,9 +211,6 @@
     "Preplanning/Proposal.md",
     "Code/TESTING/gps_test1.py~",
     "data.txt",
-    "gpsdata_window.txt",
-    "Code/TESTING/gps_test1.py",
-    "Code/main.py~",
-    "Code/gps/gps.py~"
+    "gpsdata_window.txt"
   ]
 }
