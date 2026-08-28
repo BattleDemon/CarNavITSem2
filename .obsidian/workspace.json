@@ -191,6 +191,8 @@
   },
   "active": "9dcb6830e1f48a06",
   "lastOpenFiles": [
+    "extract_config.json",
+    "Code/map/geojson_split.py~",
     "Documentation/canberra_ramusage_osmloading_screenshot.png",
     "Documentation/osmloader_test_code_screenshot.png",
     "Documentation/ramusage osm laoding.md",
@@ -212,7 +214,6 @@
     "Preplanning/Raspberry-Pi-5-Pinout--1210x642.jpg",
     "Preplanning/Raspberry-Pi-5-Pinout_Highlighted.jpg",
     "Preplanning/Proposal.md",
-    "Code/TESTING/gps_test1.py~",
-    "data.txt"
+    "Code/TESTING/gps_test1.py~"
   ]
 }
