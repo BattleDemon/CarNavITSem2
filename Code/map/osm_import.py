@@ -6,7 +6,7 @@ class OSMImporter:
     def __init__(self):
         # Finds the parent directory of this file (since the map is in the same dir)
         self.map_dir = Path(__file__).parent
-        self.osm_file = self.map_dir / "australia.osm.pbf"
+        self.osm_file = self.map_dir / "act.osm.pbf"
 
         self.osm = OSM(self.osm_file)
 
