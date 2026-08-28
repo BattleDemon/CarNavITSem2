@@ -191,6 +191,7 @@
   },
   "active": "9dcb6830e1f48a06",
   "lastOpenFiles": [
+    "Code/map/geojson_split.py",
     "Data/ACTGOV_DISTRICTS_-2248938068983619392.geojson~",
     "Data/ACTGOV_DISTRICTS_-2248938068983619392.geojson",
     "Data/ACTGOV_DIVISIONS_2639814853747302406.geojson",
@@ -210,7 +211,6 @@
     "gpsdata_window.txt",
     "Code/TESTING/gps_test1.py",
     "Code/main.py~",
-    "Code/gps/gps.py~",
-    "Code/debug.py~"
+    "Code/gps/gps.py~"
   ]
 }
