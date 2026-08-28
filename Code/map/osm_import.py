@@ -4,7 +4,7 @@ from pathlib import Path
 
 class OSMImporter:
     def __init__(self):
-        # Finds the parent directory of this file (since the map is in the sane dir)
+        # Finds the parent directory of this file (since the map is in the same dir)
         self.map_dir = Path(__file__).parent
         self.osm_file = self.map_dir / "australia.osm.pbf"
 
