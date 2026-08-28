@@ -173,3 +173,16 @@ Designs (diagrams)
 
 
 ## Evaluation and Review
+
+## Resources and Early Bibliography
+
+Initial .osm.pbf data for canberra (ACT)
+https://download.geofabrik.de/australia-oceania/australia/act.html
+PyrOSM repo with examples
+https://github.com/pyrosm/pyrosm/tree/master/tests
+PyrOSM documentation
+https://pyrosm.readthedocs.io/en/stable/quickstart.html
+Osmium tool documentation
+https://osmcode.org/osmium-tool/manual.html
+Districts within ACT GEOJson data source
+https://actmapi-actgov.opendata.arcgis.com/datasets/actgov-district/about

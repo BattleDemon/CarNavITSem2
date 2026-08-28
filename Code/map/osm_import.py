@@ -12,10 +12,6 @@ class OSMImporter:
 
         self.road_network = self.osm.get_network(network_type="driving")
 
-        # print(self.road_network)
-        #
-        print("Test all Australia (Before it was jsut ACT) ")
-
         print("Columns")
         print(self.road_network.columns)
 
