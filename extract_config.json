@@ -3,7 +3,7 @@
         {
             "output": "canberra_central.osm.pbf",
             "description": "Extract for canberra_central",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         149.165267496224,
@@ -2335,7 +2335,7 @@
         {
             "output": "majura.osm.pbf",
             "description": "Extract for majura",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         149.174144479739,
@@ -4503,7 +4503,7 @@
         {
             "output": "woden_valley.osm.pbf",
             "description": "Extract for woden_valley",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         149.116674253921,
@@ -5551,7 +5551,7 @@
         {
             "output": "weston_creek.osm.pbf",
             "description": "Extract for weston_creek",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         149.039643494133,
@@ -6883,7 +6883,7 @@
         {
             "output": "belconnen.osm.pbf",
             "description": "Extract for belconnen",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         149.097602178805,
@@ -8319,7 +8319,7 @@
         {
             "output": "tuggeranong.osm.pbf",
             "description": "Extract for tuggeranong",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         149.04847352101,
@@ -12123,7 +12123,7 @@
         {
             "output": "gungahlin.osm.pbf",
             "description": "Extract for gungahlin",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         149.066273171705,
@@ -13131,7 +13131,7 @@
         {
             "output": "jerrabomberra.osm.pbf",
             "description": "Extract for jerrabomberra",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         149.16268355047,
@@ -14731,7 +14731,7 @@
         {
             "output": "hall.osm.pbf",
             "description": "Extract for hall",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         149.04620774261,
@@ -14843,7 +14843,7 @@
         {
             "output": "stromlo.osm.pbf",
             "description": "Extract for stromlo",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         149.024118382459,
@@ -16927,7 +16927,7 @@
         {
             "output": "coree.osm.pbf",
             "description": "Extract for coree",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         148.839054842693,
@@ -21443,7 +21443,7 @@
         {
             "output": "cotter_river.osm.pbf",
             "description": "Extract for cotter_river",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         148.89470424657,
@@ -29459,7 +29459,7 @@
         {
             "output": "mount_clear.osm.pbf",
             "description": "Extract for mount_clear",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         149.095920501542,
@@ -31719,7 +31719,7 @@
         {
             "output": "kowen.osm.pbf",
             "description": "Extract for kowen",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         149.297862277046,
@@ -34131,7 +34131,7 @@
         {
             "output": "rendezvous_creek.osm.pbf",
             "description": "Extract for rendezvous_creek",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         149.006395681,
@@ -36131,7 +36131,7 @@
         {
             "output": "paddys_river.osm.pbf",
             "description": "Extract for paddys_river",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         148.959635416944,
@@ -39259,7 +39259,7 @@
         {
             "output": "tennent.osm.pbf",
             "description": "Extract for tennent",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         148.955900269755,
@@ -41743,7 +41743,7 @@
         {
             "output": "booth.osm.pbf",
             "description": "Extract for booth",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         149.004120465538,
@@ -45071,7 +45071,7 @@
         {
             "output": "molonglo_valley.osm.pbf",
             "description": "Extract for molonglo_valley",
-            "multipolygon": [
+            "polygon": [
                 [
                     [
                         149.034057351177,

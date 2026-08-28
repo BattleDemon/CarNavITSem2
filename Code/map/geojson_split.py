@@ -18,7 +18,7 @@ for index, feature in enumerate(geojson_data["features"]):
         {
             "output": f"{name}.osm.pbf",
             "description": f"Extract for {name}",
-            "multipolygon": feature["geometry"]["coordinates"],
+            "polygon": feature["geometry"]["coordinates"],
         }
     )
 
