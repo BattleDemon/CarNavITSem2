@@ -1,8 +1,8 @@
 {
     "extracts": [
         {
-            "output": "subsection_0.osm.pbf",
-            "description": "Extract for subsection_0",
+            "output": "canberra_central.osm.pbf",
+            "description": "Extract for canberra_central",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -2336,8 +2336,8 @@
             }
         },
         {
-            "output": "subsection_1.osm.pbf",
-            "description": "Extract for subsection_1",
+            "output": "majura.osm.pbf",
+            "description": "Extract for majura",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -4507,8 +4507,8 @@
             }
         },
         {
-            "output": "subsection_2.osm.pbf",
-            "description": "Extract for subsection_2",
+            "output": "woden_valley.osm.pbf",
+            "description": "Extract for woden_valley",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -5558,8 +5558,8 @@
             }
         },
         {
-            "output": "subsection_3.osm.pbf",
-            "description": "Extract for subsection_3",
+            "output": "weston_creek.osm.pbf",
+            "description": "Extract for weston_creek",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -6893,8 +6893,8 @@
             }
         },
         {
-            "output": "subsection_4.osm.pbf",
-            "description": "Extract for subsection_4",
+            "output": "belconnen.osm.pbf",
+            "description": "Extract for belconnen",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -8332,8 +8332,8 @@
             }
         },
         {
-            "output": "subsection_5.osm.pbf",
-            "description": "Extract for subsection_5",
+            "output": "tuggeranong.osm.pbf",
+            "description": "Extract for tuggeranong",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -12139,8 +12139,8 @@
             }
         },
         {
-            "output": "subsection_6.osm.pbf",
-            "description": "Extract for subsection_6",
+            "output": "gungahlin.osm.pbf",
+            "description": "Extract for gungahlin",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -13150,8 +13150,8 @@
             }
         },
         {
-            "output": "subsection_7.osm.pbf",
-            "description": "Extract for subsection_7",
+            "output": "jerrabomberra.osm.pbf",
+            "description": "Extract for jerrabomberra",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -14753,8 +14753,8 @@
             }
         },
         {
-            "output": "subsection_8.osm.pbf",
-            "description": "Extract for subsection_8",
+            "output": "hall.osm.pbf",
+            "description": "Extract for hall",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -14868,8 +14868,8 @@
             }
         },
         {
-            "output": "subsection_9.osm.pbf",
-            "description": "Extract for subsection_9",
+            "output": "stromlo.osm.pbf",
+            "description": "Extract for stromlo",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -16955,8 +16955,8 @@
             }
         },
         {
-            "output": "subsection_10.osm.pbf",
-            "description": "Extract for subsection_10",
+            "output": "coree.osm.pbf",
+            "description": "Extract for coree",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -21474,8 +21474,8 @@
             }
         },
         {
-            "output": "subsection_11.osm.pbf",
-            "description": "Extract for subsection_11",
+            "output": "cotter_river.osm.pbf",
+            "description": "Extract for cotter_river",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -29493,8 +29493,8 @@
             }
         },
         {
-            "output": "subsection_12.osm.pbf",
-            "description": "Extract for subsection_12",
+            "output": "mount_clear.osm.pbf",
+            "description": "Extract for mount_clear",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -31756,8 +31756,8 @@
             }
         },
         {
-            "output": "subsection_13.osm.pbf",
-            "description": "Extract for subsection_13",
+            "output": "kowen.osm.pbf",
+            "description": "Extract for kowen",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -34171,8 +34171,8 @@
             }
         },
         {
-            "output": "subsection_14.osm.pbf",
-            "description": "Extract for subsection_14",
+            "output": "rendezvous_creek.osm.pbf",
+            "description": "Extract for rendezvous_creek",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -36174,8 +36174,8 @@
             }
         },
         {
-            "output": "subsection_15.osm.pbf",
-            "description": "Extract for subsection_15",
+            "output": "paddys_river.osm.pbf",
+            "description": "Extract for paddys_river",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -39305,8 +39305,8 @@
             }
         },
         {
-            "output": "subsection_16.osm.pbf",
-            "description": "Extract for subsection_16",
+            "output": "tennent.osm.pbf",
+            "description": "Extract for tennent",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -41792,8 +41792,8 @@
             }
         },
         {
-            "output": "subsection_17.osm.pbf",
-            "description": "Extract for subsection_17",
+            "output": "booth.osm.pbf",
+            "description": "Extract for booth",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [
@@ -45123,8 +45123,8 @@
             }
         },
         {
-            "output": "subsection_18.osm.pbf",
-            "description": "Extract for subsection_18",
+            "output": "molonglo_valley.osm.pbf",
+            "description": "Extract for molonglo_valley",
             "multipolygon": {
                 "type": "Polygon",
                 "coordinates": [

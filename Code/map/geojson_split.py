@@ -10,7 +10,9 @@ extracts = []
 for index, feature in enumerate(geojson_data["features"]):
     # Use a property name (like 'name' or 'id') for the filename, fallback to index
     properties = feature.get("properties", {})
-    name = properties.get("name", f"subsection_{index}").replace(" ", "_").lower()
+    name = (
+        properties.get("DISTRICT_NAME", f"subsection_{index}").replace(" ", "_").lower()
+    )
 
     extracts.append(
         {
