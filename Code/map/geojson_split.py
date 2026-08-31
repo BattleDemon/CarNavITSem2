@@ -14,6 +14,8 @@ for index, feature in enumerate(geojson_data["features"]):
         properties.get("DISTRICT_NAME", f"subsection_{index}").replace(" ", "_").lower()
     )
 
+    polygons = feature["geometry"]["coordinates"]
+
     extracts.append(
         {
             "output": f"{name}.osm.pbf",

@@ -1,15 +1,18 @@
 # External import
 
+import _thread
 import pyosm
 import pynmea2
 import pandas
 import numpy
 import pandarm
-import PyQt5
+import PyQt5i
+import time
 
 # Interal imports
 
 from gps.gps import GPSManager
+from map.osm_import import OSMImporter
 
 
 class CarNavApp:
@@ -17,5 +20,16 @@ class CarNavApp:
         self.GPSManager = GPSManager()
         self.lat_lng_speed = [0, 0, 0]
 
+        self.update_thread = _thread.start_new_thread(self._update)
+        self.running = True
+
     def _update(self):
-        self.lat_lng_speed = self.GPSManager.get_location_speed()
+        while self.running:
+            self.lat_lng_speed = self.GPSManager.get_location_speed()
+
+            time.sleep(0.01)
+
+    def stop(self):
+        self.running = False
+
+        self.GPsManager.stop()
