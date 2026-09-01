@@ -177,8 +177,6 @@ Designs (diagrams)
 
 ## Resources and Early Bibliography
 
-"You could do this" (Hugo)
-
 Initial .osm.pbf data for canberra (ACT)
 https://download.geofabrik.de/australia-oceania/australia/act.html
 PyrOSM repo with examples

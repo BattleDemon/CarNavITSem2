@@ -11,14 +11,12 @@
             "id": "9dcb6830e1f48a06",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Preplanning/Proposal.md",
-                "mode": "source",
-                "source": false
+                "file": "Documentation/260822_23h31m26s_screenshot.png"
               },
-              "icon": "lucide-file",
-              "title": "Proposal"
+              "icon": "lucide-image",
+              "title": "260822_23h31m26s_screenshot"
             }
           }
         ]
@@ -191,18 +189,21 @@
   },
   "active": "9dcb6830e1f48a06",
   "lastOpenFiles": [
-    "Documentation/ramusage osm laoding.md",
-    "extract_config.json",
-    "Code/map/geojson_split.py~",
-    "Documentation/canberra_ramusage_osmloading_screenshot.png",
-    "Documentation/osmloader_test_code_screenshot.png",
-    "Documentation/documentation.md",
-    "Documentation/260822_23h31m26s_screenshot.png",
+    "Documentation/osm_act_with_data_screenshot.png",
+    "Documentation/OSM_export_0B_screenshot.png",
+    "Documentation/260822_23h43m04s_screenshot.png",
+    "Documentation/Australia_osmloading_screenshot.png",
     "Documentation/Australia_ramusage_osmloading_screenshot.png",
     "Documentation/canberra_osmloading_screenshot.png",
-    "Documentation/Australia_osmloading_screenshot.png",
-    "Documentation/260822_23h43m04s_screenshot.png",
+    "Documentation/canberra_ramusage_osmloading_screenshot.png",
+    "Documentation/osmloader_test_code_screenshot.png",
+    "Documentation/ramusage osm laoding.md",
     "README.md",
+    "Preplanning/Proposal.md",
+    "extract_config.json",
+    "Code/map/geojson_split.py~",
+    "Documentation/documentation.md",
+    "Documentation/260822_23h31m26s_screenshot.png",
     "Code/map/osm_import.py~",
     "Data/AU-streets.tsv.gz",
     "Data/AU-houses.tsv.gz",
@@ -212,7 +213,6 @@
     "Data/ACTGOV_DISTRICTS_-2248938068983619392.geojson",
     "Data/ACTGOV_DIVISIONS_2639814853747302406.geojson",
     "Preplanning/Raspberry-Pi-5-Pinout--1210x642.jpg",
-    "Preplanning/Raspberry-Pi-5-Pinout_Highlighted.jpg",
-    "Preplanning/Proposal.md"
+    "Preplanning/Raspberry-Pi-5-Pinout_Highlighted.jpg"
   ]
 }
