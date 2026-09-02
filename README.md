@@ -242,9 +242,12 @@ Designs (diagrams)
 
 #### Milestone 2: Extract data and GPS System
 
+#### Milestone 3: Navigation and Backend
 
+#### Milestone 4: UI 
+
+#### Milestone 5: Stress Testing
 ### Expanding on Minimum Viable Project
-
 
 ## Evaluation and Review
 

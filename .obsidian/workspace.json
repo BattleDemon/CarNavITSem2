@@ -192,6 +192,17 @@
   },
   "active": "9dcb6830e1f48a06",
   "lastOpenFiles": [
+    "Data/MOLO.geojson",
+    "Data/BOOT.geojson",
+    "Data/TENN.geojson",
+    "Data/PADD.geojson",
+    "Data/REND.geojson",
+    "Data/KOWE.geojson",
+    "Data/districts/geojson/MOUN.geojson",
+    "Data/districts/geojson/COTT.geojson",
+    "Data/districts/geojson/CORE.geojson",
+    "Data/districts/geojson/STRO.geojson",
+    "Data/districts/geojson/WODE.geojson",
     "Documentation/260822_23h31m26s_screenshot.png",
     "Documentation/osm_act_with_data_screenshot.png",
     "Documentation/OSM_export_0B_screenshot.png",
@@ -204,18 +215,7 @@
     "Documentation/ramusage osm laoding.md",
     "README.md",
     "Preplanning/Proposal.md",
-    "extract_config.json",
-    "Code/map/geojson_split.py~",
     "Documentation/documentation.md",
-    "Code/map/osm_import.py~",
-    "Data/AU-streets.tsv.gz",
-    "Data/AU-houses.tsv.gz",
-    "Data/AU-addresses.tsv.gz",
-    "Code/map/geojson_split.py",
-    "Data/ACTGOV_DISTRICTS_-2248938068983619392.geojson~",
-    "Data/ACTGOV_DISTRICTS_-2248938068983619392.geojson",
-    "Data/ACTGOV_DIVISIONS_2639814853747302406.geojson",
-    "Preplanning/Raspberry-Pi-5-Pinout--1210x642.jpg",
-    "Preplanning/Raspberry-Pi-5-Pinout_Highlighted.jpg"
+    "Preplanning/Raspberry-Pi-5-Pinout--1210x642.jpg"
   ]
 }
