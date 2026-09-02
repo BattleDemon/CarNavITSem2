@@ -11,12 +11,14 @@
             "id": "9dcb6830e1f48a06",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Documentation/260822_23h31m26s_screenshot.png"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "260822_23h31m26s_screenshot"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -78,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ddfc67d6de61ed6a",
@@ -189,6 +192,7 @@
   },
   "active": "9dcb6830e1f48a06",
   "lastOpenFiles": [
+    "Documentation/260822_23h31m26s_screenshot.png",
     "Documentation/osm_act_with_data_screenshot.png",
     "Documentation/OSM_export_0B_screenshot.png",
     "Documentation/260822_23h43m04s_screenshot.png",
@@ -203,7 +207,6 @@
     "extract_config.json",
     "Code/map/geojson_split.py~",
     "Documentation/documentation.md",
-    "Documentation/260822_23h31m26s_screenshot.png",
     "Code/map/osm_import.py~",
     "Data/AU-streets.tsv.gz",
     "Data/AU-houses.tsv.gz",

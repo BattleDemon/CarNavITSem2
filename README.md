@@ -158,6 +158,80 @@ Waze 2026, _Driving directions, live traffic & road conditions updates_, _Waze_,
 
 ## Preplanning
 
+### GPS
+
+**Research**
+
+
+
+**Psuedocode**
+``` Psuedocode 
+Import serial
+Import Pynmea2
+
+Port = serialport
+
+Class GPS
+	port = Port
+	lat 
+	lng 
+	
+	speed
+	
+	seriallistener(port)
+	
+	update_thread
+	running
+	
+	Function Update
+		While running
+			rawdata = seriallistener.read
+			
+			if rawdata = GNRMC
+				data = pynmea2.parse(rawdata)
+				
+				lat = data.lat
+				lng = data.lng
+				
+				speed = data.speed
+				
+				set_location_speed(lat lng speed)
+				
+	Function set_location_speed(lat lng speed)
+		self.(lat,lng,speed) = lat, lng, speed
+		
+	Function get_location_speed
+		return lat, lng, speed
+	
+	Function stop
+		running = False					
+```
+
+### Map Loading and Interpreting
+
+**Research**
+
+
+
+**Psuedocode**
+
+### Navigation System
+
+**Research**
+
+
+
+**Psuedocode**
+
+### UI 
+
+**Research**
+
+
+
+**Psuedocode**
+
+
 psuedocode 
 Flow chrarts
 Designs (diagrams)
@@ -174,6 +248,21 @@ Designs (diagrams)
 
 ## Evaluation and Review
 
+Planning
+ What aspects of your original plan were successful?
+ What changes did you make and why?
+Development
+ What technical challenges did you encounter?
+ How did you overcome them?
+Project Management
+ How effectively did you manage your time?
+ What would you do differently?
+Skills
+ What new skills did you learn?
+ Which skills improved most?
+Evaluation
+ How well does the final product meet user needs?
+ What would you improve if given another month?
 
 ## Resources and Early Bibliography
 
