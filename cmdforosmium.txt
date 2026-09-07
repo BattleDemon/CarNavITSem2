@@ -1,0 +1,1 @@
+osmium extract -c extract_config.json Code/map/act.osm.pbf --strategy smart --overwrite --verbose

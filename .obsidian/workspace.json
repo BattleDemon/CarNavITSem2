@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ddfc67d6de61ed6a",
@@ -192,17 +191,17 @@
   },
   "active": "9dcb6830e1f48a06",
   "lastOpenFiles": [
-    "Data/districts/geojson/TENN.geojson",
-    "Data/districts/geojson/REND.geojson",
-    "Data/districts/geojson/PADD.geojson",
-    "Data/districts/geojson/MOLO.geojson",
-    "Data/districts/geojson/KOWE.geojson",
-    "Data/districts/geojson/BOOT.geojson",
-    "Data/MOLO.geojson",
-    "Data/BOOT.geojson",
-    "Data/TENN.geojson",
-    "Data/PADD.geojson",
-    "Data/REND.geojson",
+    "Data/districts/osm/WODE.osm.pbf",
+    "Data/districts/osm/WEST.osm.pbf",
+    "Data/districts/osm/TUGG.osm.pbf",
+    "Data/districts/osm/TENN.osm.pbf",
+    "Data/districts/osm/STRO.osm.pbf",
+    "Data/districts/osm/MOLO.osm.pbf",
+    "Data/districts/osm/MAJU.osm.pbf",
+    "Data/districts/osm/KOWE.osm.pbf",
+    "Data/districts/osm/JERR.osm.pbf",
+    "Data/districts/osm/HALL.osm.pbf",
+    "Data/districts/osm/GUNG.osm.pbf",
     "Documentation/260822_23h31m26s_screenshot.png",
     "Documentation/osm_act_with_data_screenshot.png",
     "Documentation/OSM_export_0B_screenshot.png",

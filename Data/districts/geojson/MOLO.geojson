@@ -6,7 +6,7 @@
       "name": "EPSG:4326"
     }
   },
-  "features": 
+  "features": [
     {
       "type": "Feature",
       "id": 57,
@@ -1111,4 +1111,5 @@
         "GlobalID": "bf643317-3e4f-4c24-8027-53cc1fb48a1a"
       }
     }
+  ]
 }
