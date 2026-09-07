@@ -11,14 +11,12 @@
             "id": "9dcb6830e1f48a06",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "Documentation/OSM_export_with_filesize_screenshot.png"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-image",
+              "title": "OSM_export_with_filesize_screenshot"
             }
           }
         ]
@@ -191,6 +189,13 @@
   },
   "active": "9dcb6830e1f48a06",
   "lastOpenFiles": [
+    "Documentation/OSM_export_0B_screenshot.png",
+    "Documentation/OSM_export_with_filesize_screenshot.png",
+    "Documentation/ramusage osm laoding.md",
+    "Documentation/osmloader_test_code_screenshot.png",
+    "Documentation/260822_23h43m04s_screenshot.png",
+    "Documentation/260822_23h31m26s_screenshot.png",
+    "README.md",
     "Data/districts/osm/WODE.osm.pbf",
     "Data/districts/osm/WEST.osm.pbf",
     "Data/districts/osm/TUGG.osm.pbf",
@@ -201,20 +206,12 @@
     "Data/districts/osm/KOWE.osm.pbf",
     "Data/districts/osm/JERR.osm.pbf",
     "Data/districts/osm/HALL.osm.pbf",
-    "Data/districts/osm/GUNG.osm.pbf",
-    "Documentation/260822_23h31m26s_screenshot.png",
     "Documentation/osm_act_with_data_screenshot.png",
-    "Documentation/OSM_export_0B_screenshot.png",
-    "Documentation/260822_23h43m04s_screenshot.png",
     "Documentation/Australia_osmloading_screenshot.png",
     "Documentation/Australia_ramusage_osmloading_screenshot.png",
     "Documentation/canberra_osmloading_screenshot.png",
     "Documentation/canberra_ramusage_osmloading_screenshot.png",
-    "Documentation/osmloader_test_code_screenshot.png",
-    "Documentation/ramusage osm laoding.md",
-    "README.md",
     "Preplanning/Proposal.md",
-    "Documentation/documentation.md",
-    "Preplanning/Raspberry-Pi-5-Pinout--1210x642.jpg"
+    "Documentation/documentation.md"
   ]
 }
