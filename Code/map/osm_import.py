@@ -7,8 +7,6 @@ class OSMImporter:
         self.osm_file = file_path
         self.osm = OSM(self.osm_file)
 
-        self.road_network = self.osm.get_network(network_type="driving")
-
         self.nodes, self.edges = self.osm.get_network(
             nodes=True, network_type="driving"
         )
