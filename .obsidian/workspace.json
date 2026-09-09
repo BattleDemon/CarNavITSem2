@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/ramusage osm laoding.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ramusage osm laoding"
+              "title": "README"
             }
           }
         ]
@@ -192,11 +192,12 @@
   "active": "9dcb6830e1f48a06",
   "lastOpenFiles": [
     "Code/map/osm_import.py~",
+    "Preplanning/Proposal.md",
+    "Documentation/ramusage osm laoding.md",
     "Code/map/WEST.osm.pbf",
     "Documentation/osmloader_test_code_screenshot.png",
     "Documentation/OSM_export_with_filesize_screenshot.png",
     "Documentation/OSM_export_0B_screenshot.png",
-    "Documentation/ramusage osm laoding.md",
     "Documentation/260822_23h43m04s_screenshot.png",
     "Documentation/260822_23h31m26s_screenshot.png",
     "README.md",
@@ -208,13 +209,11 @@
     "Data/districts/osm/MOLO.osm.pbf",
     "Data/districts/osm/MAJU.osm.pbf",
     "Data/districts/osm/KOWE.osm.pbf",
-    "Data/districts/osm/JERR.osm.pbf",
     "Documentation/osm_act_with_data_screenshot.png",
     "Documentation/Australia_osmloading_screenshot.png",
     "Documentation/Australia_ramusage_osmloading_screenshot.png",
     "Documentation/canberra_osmloading_screenshot.png",
     "Documentation/canberra_ramusage_osmloading_screenshot.png",
-    "Preplanning/Proposal.md",
     "Documentation/documentation.md"
   ]
 }

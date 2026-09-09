@@ -3,25 +3,24 @@ from pathlib import Path
 
 
 class OSMImporter:
-    def __init__(self):
-        # Finds the parent directory of this file (since the map is in the same dir)
-        self.map_dir = Path(__file__).parent
-        self.osm_file = self.map_dir / "WEST.osm.pbf"
-
+    def __init__(self, file_path: Path):
+        self.osm_file = file_path
         self.osm = OSM(self.osm_file)
 
         self.road_network = self.osm.get_network(network_type="driving")
 
-        print("Columns")
-        print(self.road_network.columns)
+        self.nodes, self.edges = self.osm.get_network(
+            nodes=True, network_type="driving"
+        )
 
-        print("Head")
-        print(self.road_network.head())
+        self.graph = self.osm.to_graph(self.nodes, self.edges, simplify=True)
 
-        print("Length")
-        print(len(self.road_network))
+        print(self.osm)
+        print(self.nodes)
+        print(self.edges)
+        print(self.graph)
 
-        print(self.road_network)
 
-
-osmimport = OSMImporter()
+osmimport = OSMImporter(
+    "/home/dexter/Documents/GitHub/CarNavITSem2/Code/map/WEST.osm.pbf"
+)
