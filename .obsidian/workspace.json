@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Need to do currently.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Need to do currently"
             }
           }
         ],
@@ -206,6 +206,7 @@
   },
   "active": "8b725b1c5ffc1958",
   "lastOpenFiles": [
+    "README.md",
     "Code/map/loader.py~",
     "NEO-6_DataSheet_(GPS.G6-HW-09005).pdf",
     "Need to do currently.md",
@@ -229,8 +230,6 @@
     "Data/districts/osm/PADD.osm.pbf",
     "Data/districts/osm/MOUN.osm.pbf",
     "Data/districts/osm/CORE.osm.pbf",
-    "PADD.osm.pbf",
-    "README.md",
     "Documentation/documentation.md"
   ]
 }

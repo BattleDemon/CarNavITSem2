@@ -11,3 +11,5 @@ Need to get the size/extents of an area make a dictorinary/some data structure t
 
 load the area you are in and its adjacent areas
 
+
+
