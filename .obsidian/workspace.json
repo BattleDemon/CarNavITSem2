@@ -206,6 +206,8 @@
   },
   "active": "8b725b1c5ffc1958",
   "lastOpenFiles": [
+    "Code/map/loader.py~",
+    "Code/gps/gps.py~",
     "Code/Areas/areas.py~",
     "Data/districts/osm/REND.osm.pbf",
     "REND.osm.pbf",
@@ -215,8 +217,6 @@
     "PADD.osm.pbf",
     "MOUN.osm.pbf",
     "CORE.osm.pbf",
-    "Code/Areas/areas.py",
-    "Code/Areas/WODE.osm.pbf",
     "README.md",
     "Need to do currently.md",
     "Preplanning/Proposal.md",
