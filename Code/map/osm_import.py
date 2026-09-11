@@ -12,13 +12,3 @@ class OSMImporter:
         )
 
         self.graph = self.osm.to_graph(self.nodes, self.edges, simplify=True)
-
-        print(self.osm)
-        print(self.nodes)
-        print(self.edges)
-        print(self.graph)
-
-
-osmimport = OSMImporter(
-    "/home/dexter/Documents/GitHub/CarNavITSem2/Code/map/WEST.osm.pbf"
-)
